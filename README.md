@@ -1,8 +1,10 @@
 # School and Student Performance Metrics and Insights
+
 # Description
 This UT Module 4 pandas-challenge is an analysis using data about schools in certain districts and the impacts of resources, size and type to better understand how students might perform based on that information.
 
 # Analysis
+Below is a breakdown of analysis all image are in the images folder and refernced here.
 
 The first part of the analysis is understanding of the district in review. 
 Below is a screenshot of the Districit Summary
@@ -22,10 +24,17 @@ math_scores_by_grade
 reading_scores_by_grade
 ![reading_scores_by_grade](reading_scores_by_grade.png)
 
-We broke down each school by spending in different ranges per student.
+We broke down each school by spending in different ranges per student and then by size, making categorical ranges based on the distribution of data and comparing the result of scores in each group. Finally we broke down scores by type and compared scores there as well. 
+scores by school spending per student:
 ![school_spending](school_spending.png)
 
+scores by school size
+![school_size](school_size.png)
+size_summary
+![size_summary](size_summary.png)
 
+scores by school type:
+![scores_by_school_type](scores_by_school_typeimage.png)
 
 # Installation
 Must have following installed:
@@ -37,5 +46,5 @@ Show your appreciation to those who have contributed to the project.
 UT Xpert Learning Assistant, ChatGPT, UT Data Analytics Class Material, and reference to girHub user meltonme/pandas-challenge
 
 # Project status
-Complete. Options for improvement could improve quality with some better formatting features if time allows in future or it seems necessary. 
+Complete. Options for improvement could improve quality with some better formatting features if time allows in future or it seems necessary. Commented out some for now because it was making numeric data string and unusable later on in code.
 
